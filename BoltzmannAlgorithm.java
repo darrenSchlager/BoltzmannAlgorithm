@@ -143,9 +143,9 @@ public class BoltzmannAlgorithm
 				}
 			}
 		}
-		System.out.print("\nSteady State Vector\n\n   ");
+		System.out.print("\nSteady State Vector\n\n  ");
 		printMatrix(steadyStateVector[0], 4);
-		System.out.println("\n   iteration count: " + (numIterations+1));
+		System.out.println("\n    iteration count: " + (numIterations+1));
 		
 	}
 	
